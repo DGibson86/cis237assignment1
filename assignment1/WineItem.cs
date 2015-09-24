@@ -9,7 +9,7 @@ namespace assignment1
     class WineItem
     {
 
-        // this class handles an individual wine item loaded from the WineList.csv file
+        // this class handles an individual wine item loaded from the WineList.csv file or created by the user
 
         // wine item variables
         string wineId;

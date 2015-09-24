@@ -9,7 +9,7 @@ namespace assignment1
 {
     class SCVProcessor
     {
-        // this class handles reading and using the information taken from the WineList.csv file
+        // this class handles reading and writing the information taken from the WineList.csv file into an array
 
 
          string wineItem;       
@@ -25,7 +25,7 @@ namespace assignment1
             while (!inputFile.EndOfStream)
             {
                 wineItem = inputFile.ReadLine();
-                wineListBox.Items.Add(wineItem);
+                wineArray.Items.Add(wineItem);
             }
 
                        

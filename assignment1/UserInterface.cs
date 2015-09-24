@@ -24,7 +24,7 @@ namespace assignment1
 
 
             string answer = Convert.ToString(Console.ReadLine());   // based on the answer input, the corresponding
-                                                                    // Class is used, or asks for new input
+                                                                    // Class is loaded, or asks for new input
             if (answer == "1")
             {
                // load wine list

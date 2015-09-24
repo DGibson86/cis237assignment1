@@ -11,7 +11,7 @@ namespace assignment1
 
         // this class uses the WineItem class to create an array of all items loaded from the WineList.csv file
 
-        wineListBox;
+        public string[] wineArray;
 
         public void addWine()
         {

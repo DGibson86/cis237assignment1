@@ -11,13 +11,15 @@ namespace assignment1
         static void Main(string[] args)
         {
 
-            // this is the main class
+            // this is the main 
 
+            // this starts the UserInterface class
             Console.Clear();
             UserInterface load = new UserInterface();
             load.MainMenu();
         }
 
+        // this exits the program when called
         public void Exit()
         {
             Environment.Exit(0);
